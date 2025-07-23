@@ -1,4 +1,4 @@
-﻿namespace NZWalks.API.Models
+﻿namespace NZWalks.API.Models.DTO
 {
     public class Region
     {
@@ -12,6 +12,6 @@
 
         public long Population { get; set; }
 
-        public IEnumerable<Walk> Walks { get; set; }
+       
     }
 }
