@@ -8,7 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="6.0.2" />
-	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="1.1.0" />
+	  <!--<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.2" />-->
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
       <PrivateAssets>all</PrivateAssets>
