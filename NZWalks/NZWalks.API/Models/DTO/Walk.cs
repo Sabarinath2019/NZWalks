@@ -1,8 +1,10 @@
-﻿namespace NZWalks.API.Models.Domain
+﻿using NZWalks.API.Models.Domain;
+
+namespace NZWalks.API.Models.DTO
 {
     public class Walk
     {
-        public Guid Id { get; set; }
+        public Guid id { get; set; }
         public string name { get; set; }
         public double Length { get; set; }
         public Guid RegionId { get; set; }
